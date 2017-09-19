@@ -13,5 +13,10 @@ and open the template in the editor.
         <?php
 echo 'wassim hazime';
         ?>
+        <form action="#">
+            <input type="text" name="nom">
+            <input type="password" name="password">
+            <input type="submit" value="ok" name="ok">
+        </form>
     </body>
 </html>
