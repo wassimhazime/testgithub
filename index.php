@@ -12,6 +12,10 @@ and open the template in the editor.
     <body>
         <?php
 echo 'wassim hazime';
-        ?>
+if(isset($_POST)){
+    var_dump($_POST);
+}
+     
+   ?>
     </body>
 </html>
