@@ -12,11 +12,20 @@ and open the template in the editor.
     <body>
         <?php
 echo 'wassim hazime';
+if(isset($_POST)){
+    var_dump($_POST);
+}
+
         ?>
         <form action="#">
             <input type="text" name="nom">
             <input type="password" name="password">
             <input type="submit" value="ok" name="ok">
         </form>
+
+
+     
+   ?>
+
     </body>
 </html>
