@@ -8,12 +8,32 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title></title>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <h1>WASSIM TEST GITHUB ET TECHNIQUE  GIT COMMANDE</h1>
-        
         <?php
-echo 'wassim hazime';
+echo 'wassim hazime and achraf hazime';
+if(isset($_POST)&& (empty($_POST)==FALSE)){
+    
+    var_dump($_POST);
+    
+      $a=($_POST["nom"]."   ".$_POST["password"]);
+      
+      echo $a;
+}
+
         ?>
+        
+        
+        <form action="#" method="POST">
+            <input type="text" name="nom">
+            <input type="password" name="password">
+            <input type="submit" value="ok" name="ok">
+        </form>
+
+
+     
+   
+
     </body>
 </html>
