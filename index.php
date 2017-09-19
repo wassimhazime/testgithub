@@ -11,7 +11,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-echo 'wassim hazime';
+echo 'wassim hazime and achraf hazime';
 if(isset($_POST)&& (empty($_POST)==FALSE)){
     
     var_dump($_POST);
